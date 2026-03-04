@@ -7,6 +7,7 @@ require_relative 'languages/portuguese'
 require_relative 'languages/romanian'
 require_relative 'languages/russian'
 require_relative 'languages/spanish'
+require_relative 'languages/arabic'
 
 module BibleRef
   LANGUAGES = {
@@ -19,5 +20,6 @@ module BibleRef
     'ron' => Languages::Romanian,
     'rus' => Languages::Russian,
     'spa' => Languages::Spanish,
+    'ara' => Languages::Arabic,
   }.freeze
 end
